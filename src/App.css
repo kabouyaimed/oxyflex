@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.cards-container {
+  width: 60%;
+  /* background-color:blueviolet; */
+  height: 550px;
+  overflow-y: auto;
+}
+.notification-container {
+  width: 100%;
+  height: 100px;
+  margin-bottom:10px;
+  display: flex;
+  flex-wrap : wrap;
+  padding: 10px;
+  /* justify-content: space-between; */
+ 
+}
+.notification-style{
+  background-Color: #EEECF9;
+  border-Radius: 10px;
+  border: 1px solid #EEECF9;
+  margin: 5px;
+}
