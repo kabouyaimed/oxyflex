@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/oxyflex/static/css/main.9ff87e54.css",
+    "main.js": "/oxyflex/static/js/main.58db5ba3.js",
+    "static/media/bgAuth.jpg": "/oxyflex/static/media/bgAuth.45b1651e12a4c22b8ab1.jpg",
+    "index.html": "/oxyflex/index.html",
+    "main.9ff87e54.css.map": "/oxyflex/static/css/main.9ff87e54.css.map",
+    "main.58db5ba3.js.map": "/oxyflex/static/js/main.58db5ba3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ff87e54.css",
+    "static/js/main.58db5ba3.js"
+  ]
+}
